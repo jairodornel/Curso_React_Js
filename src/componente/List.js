@@ -5,8 +5,9 @@ function List() {
    <>
     <h1>Minha lista </h1>
     <ul>
-        <Item marca = "Fusca"/>
-        <Item marca = "Gol"/> 
+        <Item marca = "Fusca" ano_lancamento={2000}/>
+        <Item marca = "Gol" ano_lancamento={2003}/>  
+        <Item/>
 
     </ul>
    </> // Fragments 
